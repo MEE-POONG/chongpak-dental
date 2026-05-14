@@ -16,6 +16,10 @@ export default function Header() {
             🌿 About <span className="text-xs font-normal opacity-70">(เกี่ยวกับเรา)</span>
             <span className="absolute -bottom-1 left-0 w-0 h-0.5 bg-primary transition-all duration-300 group-hover:w-full"></span>
           </Link>
+          <Link href="#reviews" className="hover:text-primary/70 transition-colors duration-300 relative group flex items-center gap-1.5">
+            ⭐ Reviews
+            <span className="absolute -bottom-1 left-0 w-0 h-0.5 bg-primary transition-all duration-300 group-hover:w-full"></span>
+          </Link>
           <Link href="#contact" className="hover:text-primary/70 transition-colors duration-300 relative group flex items-center gap-1.5">
             💌 Contact
             <span className="absolute -bottom-1 left-0 w-0 h-0.5 bg-primary transition-all duration-300 group-hover:w-full"></span>

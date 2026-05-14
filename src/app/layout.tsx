@@ -25,6 +25,8 @@ export const metadata: Metadata = {
   description: "Experience premium dental care in a serene and relaxing environment. เรามอบประสบการณ์การทำฟันที่ผ่อนคลายและหรูหรา เพื่อรอยยิ้มที่มั่นใจของคุณ",
 };
 
+import BackgroundCharacters from "@/components/layout/BackgroundCharacters";
+
 export default function RootLayout({
   children,
 }: Readonly<{
@@ -33,8 +35,9 @@ export default function RootLayout({
   return (
     <html lang="en" className="scroll-smooth">
       <body
-        className={`${cormorant.variable} ${dmSans.variable} ${notoSansThai.variable} antialiased`}
+        className={`${cormorant.variable} ${dmSans.variable} ${notoSansThai.variable} antialiased relative`}
       >
+        <BackgroundCharacters />
         {children}
       </body>
     </html>

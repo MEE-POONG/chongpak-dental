@@ -5,6 +5,7 @@ import About from '@/components/sections/About';
 import Booking from '@/components/sections/Booking';
 import CTA from '@/components/sections/CTA';
 import Contact from '@/components/sections/Contact';
+import Reviews from '@/components/sections/Reviews';
 import Footer from '@/components/layout/Footer';
 import BackToTop from '@/components/BackToTop';
 
@@ -16,6 +17,7 @@ export default function Home() {
         <Hero />
         <Services />
         <About />
+        <Reviews />
         <Booking />
         <CTA />
         <Contact />
